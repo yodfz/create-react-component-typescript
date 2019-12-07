@@ -1,0 +1,24 @@
+{
+  "name": "create-react-component-typescript",
+  "version": "1.0.0",
+  "description": "create a react component  in typescript.use rollup build this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodfz/create-react-component-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yodfz/create-react-component-typescript/issues"
+  },
+  "homepage": "https://github.com/yodfz/create-react-component-typescript#readme",
+  "dependencies": {
+    "rollup": "^1.27.8",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.7.3"
+  }
+}
