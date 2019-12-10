@@ -17,8 +17,27 @@
   },
   "homepage": "https://github.com/yodfz/create-react-component-typescript#readme",
   "dependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/runtime-corejs2": "^7.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "rollup": "^1.27.8",
-    "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.16",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-plugin-react-require": "^3.1.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-typescript2": "^0.25.3"
   }
 }
